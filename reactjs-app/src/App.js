@@ -1,10 +1,10 @@
 import './App.css';
-import { Button } from 'submodule'
+import { Button } from 'rsubmodule'
 
 function App() {
   return (
     <div className="App">
-        <p>hifdsfdsdfsdf</p>
+        <p>Hi, just click on the button</p>
         <Button />
     </div>
   );
