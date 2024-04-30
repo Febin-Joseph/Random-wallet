@@ -1,14 +1,13 @@
 {
-  "name": "submodule",
+  "name": "rsubmodule",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "febinjoseph",
   "license": "ISC",
   "dependencies": {
     "@verified-network/verified-sdk": "^1.5.8",
@@ -22,5 +21,9 @@
   },
   "files": [
     "./dist"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "description": ""
 }

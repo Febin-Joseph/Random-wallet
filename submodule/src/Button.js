@@ -5,7 +5,7 @@ const Button = () => {
   const handleClick = async () => {
     try {
       const mnemonics = await VerifiedWallet.generateMnemonic();
-      alert('Random wallet created with mnemonics: ' + mnemonics);
+      alert(mnemonics);
     } catch (error) {
       console.error('Error creating wallet:', error);
       alert('Error creating wallet. Please check console for details.');
