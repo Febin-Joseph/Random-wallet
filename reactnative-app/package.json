@@ -15,7 +15,8 @@
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-web": "~0.19.6",
-    "rsubmodule": "^1.0.0"
+    "rsubmodule": "^1.0.0",
+    "expo-updates": "~0.24.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
